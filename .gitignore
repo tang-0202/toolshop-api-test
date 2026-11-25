@@ -1,0 +1,14 @@
+# 别把账号密码推到 GitHub —— 这是测试岗的第一条纪律
+config.py
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# pytest 缓存
+.pytest_cache/
+pytest-cache-files-*/
+
+# 测试报告
+report/
+.tmp/
