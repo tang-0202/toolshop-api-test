@@ -1,3 +1,15 @@
--config.py
-+.env
-+pytest-cache-files-*/
+# ===== 凭据 =====
+# 唯一一条红线：这个文件里有真密码，永远不进仓库
+.env
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== pytest 缓存 =====
+.pytest_cache/
+pytest-cache-files-*/
+
+# ===== 测试报告 =====
+report/
+.tmp/
